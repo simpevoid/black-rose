@@ -14,9 +14,9 @@ static const char col_subtext0[]    = "#908caa";
 static const char col_blue[]        = "#232136";
 
 static const char *colors[][4]      = {
-	/*               fg          bg         border   */
-	[SchemeNorm] = { col_subtext0, col_base,    col_surface0 },
-	[SchemeSel]  = { col_text,     col_blue,    col_text },
+	     /*               fg          bg         border   */
+	[SchemeNorm] = { col_subtext0, col_base, col_base },
+	[SchemeSel]  = { col_subtext0, col_blue, col_mantle },
 };
 
 /* tagging */
